@@ -27,6 +27,14 @@ The key difference is that JEPA is predictive in latent space, focusing on high-
 
 ![JEPA Architecture](images/jepa-architecture.jpg)
 
+## Architecture – Objective-Driven AI
+
+JEPA represents a significant step toward objective-driven AI systems that can learn from and interact with the world more effectively. The architecture emphasizes building world models that capture meaningful representations without getting lost in low-level details.
+
+![World Model Architecture](images/worldmodel.jpg)
+
+This approach aligns with Yann LeCun's vision of autonomous intelligence, where systems develop robust world models through self-supervised learning and use these models to make predictions, plan actions, and adapt to new situations.
+
 ## JEPA Variants
 
 1. **I-JEPA (Image-based JEPA)**
