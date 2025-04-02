@@ -25,6 +25,8 @@ Joint Embedding Predictive Architecture (JEPA) is an evolution of self-supervise
 
 The key difference is that JEPA is predictive in latent space, focusing on high-level semantic features, while avoiding the pitfalls of both contrastive methods (which rely on hand-crafted augmentations) and generative methods (which focus too much on pixel-level details).
 
+![JEPA Architecture](images/jepa-architecture.jpg)
+
 ## JEPA Variants
 
 1. **I-JEPA (Image-based JEPA)**
@@ -92,7 +94,7 @@ The key difference is that JEPA is predictive in latent space, focusing on high-
 
 1. [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) - Original I-JEPA paper
 2. [I-JEPA: The first AI model based on Yann LeCun's vision for more human-like AI](https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/) - Meta AI blog post about I-JEPA
-3. [What is Joint Embedding Predictive Architecture (JEPA)?](https://www.turingpost.com/p/jepa) - Comprehensive explanation of JEPA
+3. [What is Joint Embedding Predictive Architecture (JEPA)?](https://www.turingpost.com/p/jepa) - Comprehensive explanation of JEPA with resources on original models, JEPA-inspired models for various domains (audio, visual, graph, time-series), and presentations by Yann LeCun
 4. [NYU Deep Learning Spring 2021 Course](https://atcold.github.io/NYU-DLSP21/) - Course by Yann LeCun and Alfredo Canziani covering energy-based models and self-supervised learning
 
 ## Energy-Based Models (EBMs) and JEPA
